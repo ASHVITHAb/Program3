@@ -20,3 +20,14 @@ public class Test {
         System.out.println(sb);
     }
 }
+//StringBuffer
+public class Test {
+    public static void main(String[] args) {
+
+        StringBuffer sb = new StringBuffer("Java");
+
+        sb.append(" Programming");
+
+        System.out.println(sb);
+    }
+}
