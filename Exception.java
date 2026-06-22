@@ -7,3 +7,16 @@ public class Test {
         System.out.println(a / b);
     }
 }
+//Using try-catch
+public class Test {
+    public static void main(String[] args) {
+
+        try {
+            int result = 10 / 0;
+            System.out.println(result);
+        }
+        catch (ArithmeticException e) {
+            System.out.println("Cannot divide by zero");
+        }
+    }
+}
