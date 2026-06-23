@@ -20,3 +20,18 @@ public class Test {
         }
     }
 }
+//finally Block
+public class Test {
+    public static void main(String[] args) {
+
+        try {
+            int result = 10 / 0;
+        }
+        catch (ArithmeticException e) {
+            System.out.println("Exception Handled");
+        }
+        finally {
+            System.out.println("Finally Block Executed");
+        }
+    }
+}
