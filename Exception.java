@@ -35,3 +35,17 @@ public class Test {
         }
     }
 }
+//throw Keyword
+public class Test {
+
+    public static void main(String[] args) {
+
+        int age = 15;
+
+        if(age < 18) {
+            throw new ArithmeticException("Not Eligible for Voting");
+        }
+
+        System.out.println("Eligible");
+    }
+}
