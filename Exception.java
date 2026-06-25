@@ -49,3 +49,22 @@ public class Test {
         System.out.println("Eligible");
     }
 }
+//throws Keyword
+import java.io.IOException;
+
+public class Test {
+
+    static void readFile() throws IOException {
+        throw new IOException("File Not Found");
+    }
+
+    public static void main(String[] args) {
+
+        try {
+            readFile();
+        }
+        catch(IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
