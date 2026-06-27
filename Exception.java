@@ -68,3 +68,14 @@ public class Test {
         }
     }
 }
+
+//catch blocks
+
+try {
+}
+catch(ArithmeticException e) {
+}
+catch(NullPointerException e) {
+}
+
+
