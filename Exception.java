@@ -77,5 +77,9 @@ catch(ArithmeticException e) {
 }
 catch(NullPointerException e) {
 }
+//without catch
 
-
+try {
+}
+finally {
+}
