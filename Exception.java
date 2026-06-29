@@ -83,3 +83,13 @@ try {
 }
 finally {
 }
+//finally execute after return
+
+public static int test() {
+    try {
+        return 10;
+    }
+    finally {
+        System.out.println("Finally");
+    }
+}
