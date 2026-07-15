@@ -11,3 +11,6 @@ class MyThread extends Thread {
         t1.start();
     }
 }
+
+// output
+// Thread is Running.....
