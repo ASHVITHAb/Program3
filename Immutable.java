@@ -29,3 +29,7 @@ public class ImmutableDemo {
         System.out.println(emp.getName());
     }
 }
+
+//output
+//101
+//Ash
