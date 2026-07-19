@@ -13,3 +13,6 @@ public class ListExample {
         System.out.println(list);
     }
 }
+
+//Output 
+//[Java, Python, Java]
