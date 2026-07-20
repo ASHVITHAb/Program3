@@ -16,3 +16,5 @@ public class ListExample {
 
 //Output 
 //[Java, Python, Java]
+
+//set
