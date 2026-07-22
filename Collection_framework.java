@@ -35,3 +35,5 @@ public class SetExample {
 
 //Output 
 //[Java, Python]
+
+//3.Queue
