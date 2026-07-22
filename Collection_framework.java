@@ -53,3 +53,6 @@ public class QueueExample {
         System.out.println(queue.poll());
     }
 }
+
+//Output 
+//Customer1
